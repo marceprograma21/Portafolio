@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+#myForm {
+    width: 300px;
+    margin: 0 auto;
+    color: rgb(138, 37, 3);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input {
+    background-color: #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#button {
+    background-color: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+#button:hover {
+    background-color: rgb(138, 37, 3);
+    color: white;
+    border-color: white;
+}

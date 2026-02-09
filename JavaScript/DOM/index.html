@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduccion JavaScript</title>
+    <link rel="stylesheet" href="">
+<body>
+    <h3>Changing "Paragraph text" to "Updated text"</h3>
+    <p id="p1">Paragraph text</p>
+
+    <p id="t1">Paragraph text that is accessed</p>
+
+    <p id="t2">This is Paragraph that will be styled</p>
+
+    <script>
+        document.getElementById("p1").style.visibility = "Updated text";
+    </script>
+
+    <script>
+        let c = document.getElementById("t1").textContent;
+        console.log(c);
+        alert(c);
+    </script>
+
+    <script>
+        let p = document.getElementById("t2");
+        p.style.color = "blue";
+        p.style.border = "solid";
+    </script>
+
+    <button onclick="alert ('Modulo 1 completado')">
+    Submit
+    </button>
+</body>
+</html>

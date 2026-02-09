@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Elemento div</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Ejercicio de Tablas</h1>
+        <h2>Tabla 1</h2>
+        <table>
+            <!-- Tabla con 3 filas y 2 columnas -->
+            <tr>
+                <td style="border: solid rgb(255, 1, 1)">A</td><td style="border: solid rgb(255, 238, 0)">B</td>
+            </tr>
+            <tr>
+                <td style="border: solid rgb(56, 2, 255)">C</td><td style="border: solid rgb(2, 129, 8)">D</td>
+            </tr>
+            <tr>
+                <td style="border: solid black">E</td>
+                <td style="border: solid rgb(128, 0, 128)">F</td>
+            </tr>
+        </table>
+        <table>
+            <!-- Tabla con 2 filas y 3 columnas -->
+            <tr>
+                <td style="border: solid rgb(255, 1, 1)">A</td>
+                <td style="border: solid rgb(255, 238, 0)">B</td>
+                <td style="border: solid rgb(3, 143, 179)" rowspan="2">C</td>
+            </tr>
+            <h2>Tabla 2</h2>
+            <tr>
+                <td style="border: solid rgb(56, 2, 255)">D</td>
+                <td style="border: solid rgb(2, 129, 8)">E</td> 
+            </tr>
+        </table>
+        <h3>Tabla 3</h3>
+        <!-- Tabla con encabezado <th> -->
+            <table style="border: solid black">
+                <tr>
+                    <th>Name</th><th>Age</th>
+                </tr>
+                <tr>
+                    <td>Marce</td><td>22</td>
+                </tr>
+                <tr>
+                    <td>Juan</td><td>25</td>
+           </table>
+           <!-- Tabla con atributos colspan o rowspan-->
+            <h3>Tabla 4</h3>
+            <table style="border: solid">
+                <tr>
+                    <th style="border:solid">Month</th>
+                    <th style="border:solid">Budget($)</th>
+                </tr>
+                <tr>
+                    <td style="border:solid">January</td>
+                    <td style="border:solid">500</td>
+                </tr>
+                <tr>
+                    <td style="border:solid">February</td>
+                    <td style="border:solid">400</td>
+                </tr>
+                <tr>
+                    <td style="border:solid" colspan="2">Sum:900</td>
+                </tr>
+              </table>
+    </body>
+</html>

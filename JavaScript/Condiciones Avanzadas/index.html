@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduccion JavaScript</title>
+<body>
+    <form onsubmit="event.preventDefault(); checkDiscount()">
+        <label for="age">Introduce tu edad:</label>
+        <input type="number" id="age" name="age"> <br><br>
+
+        <label for="isstudent">¿Eres estudiante?</label>
+        <input type="checkbox" id="isstudent" name="isstudent"> <br><br>
+
+        <input type="submit" onclick="checkDiscount()"
+        value="Check Discount Eligibility">
+    </form>
+    <h2>Choose Your Products</h2>
+        <div id="production">
+        <select id="product">
+            <option value="150">SmartPhone $150</option>
+            <option value="750">Laptop $750</option>
+            <option value="120">Headphones $120</option>
+        </select>
+
+    <label>
+        <input type="checkbox" id="insurance"> Add Insurance $10
+    </label>
+
+    <input id="quantity" min="1">
+
+    <button onclick="calculate()">Calculate Total and Shipping</button>
+    </div>
+
+<p id="shipping">Shipping: </p>
+    <input type="checkbox" id="insurance"> Add Insurance
+
+
+<script src="condiava.js"></script>
+
+</body>
+</html>

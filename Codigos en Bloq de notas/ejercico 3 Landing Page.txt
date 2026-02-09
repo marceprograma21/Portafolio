@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page de Prueba</title>
+  </head>
+  <body>
+    <header>
+    <h1>Bienvenido a Mi Landing Page</h1>
+    <p>Pagina de prueba y ejercicio</p>
+    <a href="https://i.pinimg.com/originals/20/16/45/201645bdb77d9440ebf7f4387b4ef0c0.gif">Ver sorpresa</a>
+  </header>
+    <section>
+      <div>
+        <h3>Beneficio 1</h3>
+        <p>Los beneficios son beneficiosos</p>
+      </div>
+      <div>
+        <h3>Beneficio 2</h3>
+        <p>Es algo misterioso</p>
+        </div>
+      <div>
+        <h3>Beneficio 3</h3>
+        <p>Es sorpresa</p>
+      </div>
+    </section>
+    <form>
+      <label for="n1">Nombre:</label>
+      <input type="text" id="n1"><br>
+      <label for="n2">Email:</label>
+      <input type="email" id="n2">
+      <button type="submit">Enviar</button>
+    </form>
+    <footer>
+    <p>© 2025 Mi Landing Page — Todos los derechos reservados</p>
+  </footer>
+  </body>
+</html>

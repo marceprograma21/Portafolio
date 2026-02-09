@@ -1,0 +1,182 @@
+#elemen1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: background-color 3s;
+    margin: 20px;
+}
+
+b{
+    color: white;
+}
+
+#element1:hover {
+    color: black;
+    background-color: rgb(6, 9, 167)
+}
+
+h2 {
+    color: white;
+}
+
+#element2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 20px;
+    animation-name: colorChange;
+    animation-duration: 3s;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 20px;
+}
+
+h2 {
+    padding-left: 40px;
+}
+
+#element3 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 50px;
+    animation-name: snakeMove;
+    animation-duration: 5s;
+}
+
+@keyframes snakeMove {
+    0% {
+        background-color: #7B41EA;
+        bottom: 0;
+        left: 0;
+    }
+    33% {
+        background-color: #CCB4FB;
+        bottom: 40px;
+        left: 120px;
+    }
+    66% {
+        background-color: #C833FD;
+        bottom: 0;
+        left: 80px;
+    }
+    100% {
+        background-color: #F91583;
+        bottom: 40px;
+        left: 120px;
+    }
+}
+
+#element4 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: rgb(177, 180, 3);
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes myAnimation {
+    0% {
+        left:0px;
+    }
+    50% {
+        left:45px;
+    }
+    100% {
+        left: 90px;
+    }
+}
+
+#element5 {
+    padding: 30px;
+    border-radius: 50%;
+    width: 50px;
+    background-color: #007BFF;
+    color: white;
+    animation-name: colorChangess;
+    animation-duration: 4s;
+}
+
+@keyframes colorChangess {
+    from { 
+        background-color: #007BFF;
+    }
+    to {
+        background-color: #F2106E;
+    }
+}
+
+.circle-yellow {
+    width: 40px;
+    height: 40px;
+    background-color: #FFA310;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 3s;
+}
+
+.circle-green {
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    left: 30px;
+    background-color: #10FF14;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: pulse;
+    animation-duration: 3s;
+}
+
+.circle-blue {
+    width: 170px;
+    height: 15px;
+    top: 60px;
+    left: 60px;
+    background-color: #1064FF;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: pulse;
+    animation-duration: 3s;
+}
+
+.visual {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+body {
+    margin: 50px;
+    background-color: #0c1527;
+}

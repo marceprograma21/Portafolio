@@ -1,0 +1,65 @@
+body {
+    background: #34ff54;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 10%, rgb(81, 151, 142)50%, rgb(2, 155, 96) 80%);
+    min-height: 87vh;
+    margin: 0;
+    padding: 40px;
+    padding: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto {
+    display: block;
+    width: 100%;
+    text-align: center;   /* centro respecto a la barra */
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 6px;   /* separación de la barra */
+}
+
+.barra {
+    width: 100%;
+    border: 4px solid black;
+    border-radius: 9px;
+    height: 40px;
+    overflow: hidden;
+    cursor: wait;
+    box-shadow: 0px 1px 13px black;
+}
+
+.barra p {
+    margin: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgb(4, 177, 105);
+    transition: width 3s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+.barra:hover p {
+    width: 100%;
+}
+
+#element {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: green;
+    transition: color 3s;
+    transition: background-color 1s;
+    transition: border color 1s;
+    cursor: pointer;
+}
+
+#element:active {
+    border: 2px solid black;
+    background-color: black;
+    color:aliceblue;
+}

@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    display: inline-block;
+    border: 8px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 0px 9px black;
+}
+h1:active {
+    transform: translate(-25px , 50px );
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+#h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 135, 4);
+    display: inline-block;
+    border: 8px solid rgb(236, 135, 4);
+    border-radius: 5px;
+    box-shadow: 5px 0px 9px rgb(236, 135, 4);
+}
+#h2:active {
+    transform: rotate(180deg);
+    transform-origin: right bottom; /* o también top left */
+    transition: 0.9s;
+}
+#h3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 4, 4);
+    display: inline-block;
+    border: 8px solid rgb(236, 4, 4);
+    border-radius: 5px;
+    box-shadow: 5px 0px 9px rgb(236, 4, 4);
+}
+#h3:active {
+    transform: translate(100px, 150px) 
+    rotate(70deg) scale(1.5);
+    transition: 0.9s;
+}

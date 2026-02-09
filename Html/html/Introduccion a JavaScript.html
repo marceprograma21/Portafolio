@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Introducción a JavaScript</title>
+    </head>
+    <body>
+    <!--Titulo-->
+        <h1 style="text-align: center;"><u>Introducción a JavaScript</u></h1>
+    <!--Botón simple-->
+        <p>Boton de Click simple</p>
+        <button onclick="action">Click</button><br>
+    <!--Botón con mensaje de alerta-->
+        <p>Boton de Click con alerta</p>
+        <button onclick="alert ('Hola Mundo!')">Click</button><br>
+    <!--Otro elemento de HTML interactivo en imagen-->
+        <p>Imagen con alerta al hacer click</p>
+        <img src="icon.jpg" onclick="alert ('Hola')"><br>
+    <!--Prueba con URL -->
+    <div style="text-align: center;">
+        <h3>Robot y arbol</h3>
+        <img id="robot" src="https://blob.sololearn.com/courses/robot-c.jpg">
+        <button onclick="robot.src= 'http://www.sololearn.com/images/tree.jpg'">Show tree</button>
+        <button onclick="robot.src= 'https://blob.sololearn.com/courses/robot-c.jpg'">Show robot</button><br>
+    </div>
+    <!--Robot que baila-->
+    <div style="text-align: center;">
+        <h3>Robot que baila</h3>
+        <img id="robot2" src="https://blob.sololearn.com/courses/robot-c.jpg"><br>
+        <button onclick="robot2.src= 'https://blob.sololearn.com/courses/robot-l.jpg'">Left</button>
+        <button onclick="robot2.src= 'https://blob.sololearn.com/courses/robot-c.jpg'">Center</button>
+        <button onclick="robot2.src= 'https://blob.sololearn.com/courses/robot-r.jpg'">Right</button>
+    </div>
+    </body>
+</html>

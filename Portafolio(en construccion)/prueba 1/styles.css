@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(90deg,rgb(10, 5, 112) 0%, rgb(87, 89, 199) 50%, rgb(133, 115, 185) 100%);
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: white;
+}
+
+form { 
+    background-color: #0a013394;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.336);
+    border-radius: 9px;
+    padding: 20px 28px;
+    width: 480px;      /* ← tamaño medio-grande */
+    margin: 40px auto; /* un poco de espacio arriba-abajo */
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    display: block;
+}
+
+input{
+    color: rgb(92, 1, 1);
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 90%;       
+}
+
+input:focus {
+    border-color: rgb(13, 241, 241);
+    outline: none;
+    box-shadow: 0 0 5px rgba(10, 73, 2, 0.5);
+}
+
+button{
+    background-color: rgb(3, 148, 15);
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(11, 70, 3);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+input[type=email], input[type=text],
+label, button {
+    display: block;
+    margin: 15px auto;
+}
+
+input, button {
+    border-radius: 15px 15px 15px 15px;  /* arriba-izquierda, arriba-derecha, abajo-derecha, abajo-izquierda*/
+    transition: 0.3s;
+}
+

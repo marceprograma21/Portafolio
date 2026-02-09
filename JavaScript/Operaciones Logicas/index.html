@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <title>Operaciones Lógicas</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+        
+    <body>
+        <h3>Operación AND en entradas de usuario</h3>
+        <p>&& es el símbolo para la operación AND en la sintaxis de JavaScript</p>
+        <p>Seleccione y envíe diferentes combinaciones de entradas para ver el resultado</p>
+
+        <form onsubmit="performAndOperation(event)">
+
+            <input type="checkbox" id="input1" name="input1">
+            <label for="input1">Entrada 1</label><br />
+
+            <input type="checkbox" id="input2" name="input2">
+            <label for="input2">Entrada 2</label><br /><br />
+
+            <input type="submit" onclick="performAndOperation()" value="Enviar"><br /><br />
+
+        </form>
+
+        <script src="operacioneslog.js"></script>
+
+    </body> 
+</html>

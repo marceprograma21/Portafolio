@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pagina prueba de video</title>
+  </head>
+  <body>
+     <video controls height="280" width="500" autoplay loop>
+       <source src="https://cdn.pixabay.com/video/2022/07/12/123872-729413470_large.mp4"
+       type="audio/mp3">
+     </video>
+  </body>
+</html>

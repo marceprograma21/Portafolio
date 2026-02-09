@@ -1,0 +1,133 @@
+/* General */
+body {
+    background: linear-gradient(#14a739, #ebebeb);
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    padding: 0%;
+    background-color: #f0f0f0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+}
+.pelota{
+    filter: grayscale(100%);
+    transition: filter 4s;
+    transition: transform 0.4s ease;
+    border-radius: 100%;
+}
+.pelota:hover{
+    filter: grayscale(0%);
+        transform: scale(1.05);
+}
+
+.intro h1 {
+    text-align: center;
+}
+
+.intro h2 {
+    text-align: center;
+}
+
+.btn {
+    background: red;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+}
+.btn:hover {
+    background: darkred;
+    transform: scale(1.05);
+}
+
+/* Secciones */
+.section {
+    margin-top: 40px;
+}
+
+/* Video */
+.video {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Testimonios */
+.testimonios {
+    text-align: center;
+    margin-top: 40px;
+    border: 5px outset rgb(33, 139, 1);
+    padding: 10px;
+}
+
+/* Contacto */
+.contacto {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contacto input, 
+.contacto textarea {
+    width: 250px;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.contacto button {
+    padding: 20px 70px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    transition: transform 0.2s ease;
+}
+.contacto button:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+/* Mensaje dinámico */
+.mensaje {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mensaje button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.mensaje button:hover {
+    background-color: rgb(1, 1, 92);
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background: #f0f0f0;
+}

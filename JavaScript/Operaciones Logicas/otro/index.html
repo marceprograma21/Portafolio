@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <title>Operaciones Lógicas</title>
+    </head>
+        
+    <body>
+        <h3>Operación OR en entradas de usuario</h3>
+        <p>|| es el símbolo para la operación OR en la sintaxis de JavaScript</p>
+        <p>Seleccione y envíe diferentes combinaciones de entradas para ver el resultado</p>
+
+        <form onsubmit="performOrOperation(event)">
+
+            <!-- Operacion de OR -->
+            <input type="checkbox" id="input3" name="input3">
+            <label for="input3">Entrada 3</label><br />
+
+            <input type="checkbox" id="input4" name="input4">
+            <label for="input4">Entrada 4</label><br /><br />
+
+            <input type="submit" onclick="performAndOperation()" value="Enviar">
+        </form>
+
+        <script src="operacionlo.js"></script>
+
+    </body> 
+</html>

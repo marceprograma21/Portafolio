@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(
+        180deg,
+        #9b2a79 0%,
+        #f8da4a 50%,
+        #e47d4b 100%
+    );
+    background-size: 100% 200%;
+}
+
+.lists {
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 5%;
+    width: 20px 30px;
+    margin: 5px  auto;
+    width: 300px;
+    text-align: center;
+}
+
+.lists ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.trends {
+    list-style: disc;
+}
+
+.most-watched {
+    list-style: none;
+}
+
+.new-arrivals {
+    list-style: circle;
+}
+
+.classics {
+    list-style: square;
+}

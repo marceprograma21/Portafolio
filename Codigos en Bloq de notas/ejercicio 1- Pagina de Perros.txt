@@ -1,0 +1,38 @@
+</html><!DOCTYPE html>
+<html>
+	<head>
+		<!-- El titulo de mi pagina web -->
+		<title>Pagina de ejercicio de Prueba 1</title>	
+	</head>
+	<body>
+	  <!-- Enlaces -->
+		<nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacto</a>
+        <a href="services.html">Servicios</a>
+        <a href="products.html">Productos</a>
+        <a href="blog.html">Ir al blog</a>
+      		</nav>
+		<!-- Encabezados principales -->
+		<h1><em>Fotos de Perros</em></h1>
+		<h2><i><u>Te van a encantar</u></i></h2>
+			<p><strong>En esta pagina encontaras diferentes fotos de perros adorables</strong></p>
+			<img src="https://blog.dogfydiet.com/wp-content/uploads/2024/02/Descripcion-general-cachorro-Border-Collie-Tamano-pelaje-y-apariencia-.jpg" alt="Border Collie" width="400">
+		      	<p>En la imagen de arriba podemos observar a un Border Collie cachorro</p>
+		<!-- Aqui cree una lista con los beneficios -->
+		<b> Beneficios de tener un Border Collie</b>
+	<ol>
+		<li>Son divertidos</li>
+		<li>Se alegran de verte llegar</li>
+		<li>Son buenos para el campo</li>
+	</ol>
+		<!-- Enlace con mas informacion -->
+		<a href="https://www.sololearn.com" target="_blank" >Quiero saber mas</a>
+	</body>
+</html>
+
+1.Para mostrar una imagen se utiliza la etiqueta de <img> 
+2. El atributo alt se utiliza para texto alternativo
+3. La difencia entre b y strong es que <b> se utiliza para mostrar el texto en negrita y <Strong> se utiliza para resaltar algo importante
+4. Las etiquetas que se utilizan son <ul> para crear listas con viñetas 

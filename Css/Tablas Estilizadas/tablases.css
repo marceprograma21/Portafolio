@@ -1,0 +1,25 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: #F7F8FC;
+}
+
+/*Aplicando el borde alrededor de la tabla */
+#table1 {
+    border-collapse: collapse;
+    border: 2px solid #0C1527;
+}
+
+/*Aplicando bordes a cada celda */
+#table2 th,
+#table td {
+    border: 2px solid #0C1527;
+}
+
+td:nth-child(3) {
+    text-align: left;
+}
+
+th:nth-child(odd) {
+    text-align: left;
+    background-color: #6b96f3;
+}

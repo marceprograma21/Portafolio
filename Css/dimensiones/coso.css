@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(83, 79, 53);
+}
+h1 {
+    color:#FFFFFF; /*texto de color blanco*/
+    text-shadow: 4px 4px 4px #4296CE;
+    text-decoration: wavy underline;
+    text-transform: uppercase;
+    font-size: 4rem; 
+}
+.parent {
+    font-size: 20px;
+    background-color: #98FB98;
+}
+.child {
+    font-size: 50%;
+    background-color: #FFD700;
+    
+}
+.content {
+    font-size: 100%;
+    text-align: justify;
+    text-decoration: underline;
+    color: tomato;
+}
+.h2 {
+    text-decoration: overline;
+    color: rgb(145, 85, 12);
+}
+.h3 {
+    text-decoration: line-through;
+    color: red;
+}
+.h4 {
+    text-decoration: underline overline;
+    color: violet;
+}
+#offer b {
+    text-decoration: overline white;
+}
+.p1 {
+    color: rgb(255, 255, 255);
+    text-decoration: double underline rgb(193, 228, 39);
+    text-align: right;
+}
+.p2 {
+    color:#98FB98;
+    text-decoration: double underline;
+}
+.p3 {
+    color:whitesmoke;
+    text-decoration: underline dotted;
+}
+.p4 {
+    color:aliceblue;
+    text-decoration: wavy underline;
+}
+.p5 {
+    color: bisque;
+    text-decoration: overline dashed red;
+}
+.p6 {
+    color:ghostwhite;
+    text-decoration: wavy overline #2A9D8F
+}
+#div2 {
+    color:whitesmoke
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.uppercase {
+    text-shadow: 5px -6px rgb(158, 158, 158);
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
