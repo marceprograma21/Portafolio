@@ -121,3 +121,8 @@ footer {
     left: 0;
     color: #ff8ad8;
 }
+
+.projectlink {
+    color: #ff8ad8;
+    font-weight: bold;
+}
